@@ -1,9 +1,9 @@
 class Duck
-  attr_accessor: fly_behavior, quack_behavior
+  attr_accessor :fly_behavior, :quack_behavior
   
   def initialize(fly_behavior, quack_behavior)
     @fly_behavior = fly_behavior
-    @quack_behavior
+    @quack_behavior = quack_behavior
   end
 
   def perform_fly
@@ -11,7 +11,7 @@ class Duck
   end
 
   def perform_quack
-    @quack_behavior.quck
+    @quack_behavior.quack
   end
 
   def swim
