@@ -11,11 +11,11 @@ class Subject
     @observers = []
   end
 
-  # Добавление подписчика
+  
   def add_observer(observer)
     @observers << observer
   end
-  # Удаление подписчика
+
   def remove_observer(observer)
     @observers.delete(observer)
   end
